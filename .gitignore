@@ -1,0 +1,32 @@
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+.dnanexus_config/
+
+# Restricted and local datasets
+data/
+outputs/
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+
+# Java archives / downloaded tools
+*.jar
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Operating system
+.DS_Store
+Thumbs.db

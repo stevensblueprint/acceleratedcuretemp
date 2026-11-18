@@ -1,0 +1,11 @@
+# Install core project dependencies
+-r requirements.txt
+
+# DNAnexus Python SDK and CLI
+dxpy==0.416.0
+
+# Automated testing
+pytest>=8,<10
+
+# Python code linting
+ruff>=0.13,<1

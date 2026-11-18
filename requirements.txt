@@ -1,0 +1,8 @@
+# ACP RealMS Explorer - Core Python Dependencies
+
+# Data manipulation and analysis
+pandas>=2.2,<3
+numpy>=1.26,<3
+
+# Visualization (proposed for the analysis layer)
+plotly>=5,<7
